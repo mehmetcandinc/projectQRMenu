@@ -213,7 +213,7 @@ const AddProductModal = ({ openCheck, closeAddModal, addList }) => {
                     type="button"
                     onClick={() => setisOpenProductModal(null)}
                   >
-                    Save & Cancel
+                    Save & Back
                   </button>
                 </div>
               </form>

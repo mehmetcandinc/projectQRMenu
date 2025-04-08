@@ -204,7 +204,7 @@ const EditOpenModal = ({ openCheck, closeModal, editList, product }) => {
                   type="button"
                   onClick={() => setIsOpenProductModal(null)}
                 >
-                  Save & Cancel
+                  Save & Back
                 </button>
               </div>
             </form>
