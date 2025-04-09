@@ -46,6 +46,7 @@ const AdminModal = ({
             className="bg-gray-50 rounded-xs text-[#0e432f] pl-0.5"
             value={formData.username}
             onChange={handleChange}
+            placeholder="Mcan"
           />
         </label>
         <label>
@@ -56,6 +57,7 @@ const AdminModal = ({
             className="bg-gray-50 rounded-xs text-[#0e432f] pl-0.5"
             value={formData.password}
             onChange={handleChange}
+            placeholder="123"
           />
         </label>
         {error && (
